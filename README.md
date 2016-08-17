@@ -1,5 +1,7 @@
 # BranchLabs Applicant Project
 
+The BranchLabs applicant project involves implementing a basic ORM in PHP and then integrating it with the framework of your choice.
+
 ## Part I. Abstract Model
 
 Subjects tested:
@@ -42,3 +44,5 @@ Using the framework of your choice, incorporate the abstract model into a simple
 Application guidelines:
 * Must have a URL where a contact's information is visible—something like example.com/contact/view?id=[some_id]
 * Must use the Contact model shown above to load the record.
+
+If you have extra time, feel free to add extra bits of polish.
