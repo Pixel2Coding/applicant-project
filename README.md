@@ -1,6 +1,6 @@
 # BranchLabs Applicant Project
 
-The BranchLabs applicant project involves implementing a basic ORM in PHP and then integrating it with the framework of your choice.
+The BranchLabs applicant project involves implementing a basic ORM in PHP and then integrating it with Magento. Yes, you'll be duplicating functionality already provided by Magento, but that's okay.
 
 ## Part I. Abstract Model
 
@@ -11,7 +11,7 @@ Subjects tested:
   * Object-relational mapping
 
 In this folder you will find
-  * `Contact.php` - Class to be used for testing
+  * `Contact.php` - File with code to be used for testing
   * `contacts.sql` - Test data
   * `contact_test.php` - Unit tests
 
@@ -37,12 +37,12 @@ You will need to make database calls in these methods. Please use the PHP MySQL 
 
 Subjects tested:
 * MVC
-* Framework Exposure
+* Magento Exposure
 
-Using the framework of your choice, incorporate the abstract model into a simple application.
+Using Magento, incorporate the abstract model into a simple application. Feel free to rename the classes to make them work better within Magento.
 
 Application guidelines:
-* Must have a URL where a contact's information is visible—something like example.com/contact/view?id=[some_id]
+* Must have a URL where a contact's information is visible—something like example.com/contact/view/id/[some_id]
 * Must use the Contact model shown above to load the record.
 
 If you have extra time, feel free to add extra bits of polish.
