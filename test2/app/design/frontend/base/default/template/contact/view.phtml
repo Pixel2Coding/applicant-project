@@ -1,0 +1,30 @@
+<?php 
+
+$contact = $this->getContact();
+
+
+?>
+<div class="page-title">
+    <h1><?php echo $this->__($contact->getName()) ?></h1>
+</div>
+
+<form id="contactform" action="<?php echo $this->getUrl('contact/update', array('id'=>$contact->getId())) ?>" method="post">
+<table class="data-table-1" id="my-custom-table-1">
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td><input type="text"  class="input-text required-entry"  name="name" value="<?php echo $contact->getName() ?>" /> </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email"  class="input-text required-entry"  name="mail" value="<?php echo $contact->getEmail() ?>" /> </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit"  value="Update" /> </td>
+        </tr>
+    </tbody>
+</table>
+<script type="text/javascript">
+    var contactform = new VarienForm('contactform',true);
+</script> 
